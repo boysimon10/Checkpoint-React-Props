@@ -7,9 +7,9 @@ const PlayersList = () => {
     return (
         <>                     
             {/* Boucle à travers chaque élément de Players */}
-            {Players.map(Player =>(
+            {Players.map(Players =>(
                 // Rendu du composant Player pour chaque élément avec une clé unique
-                <Player key={Player} Players={Player} />
+                <Player key={Players} Players={Players} />
             ))}
         </>
     );
